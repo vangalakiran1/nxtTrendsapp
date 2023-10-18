@@ -1,0 +1,71 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+.filters-group-container > div > h3 {
+  margin: 10px 0;
+}
+.filter-search-box {
+  width: 100%;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.search-input {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  background: none;
+  outline: none;
+}
+.category-item-container {
+  padding: 5px;
+}
+.category-item {
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.active-category {
+  color: #0967d2;
+}
+.active-rating {
+  color: #0967d2;
+}
+
+.rating-item {
+  list-style: none;
+}
+.rating-btn {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.rating-btn-img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.clear-filers {
+  margin: 15px 0;
+  padding: 6px 10px;
+  border: 2px solid #0967d2;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
